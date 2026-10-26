@@ -369,7 +369,7 @@ var CONFIG = {
 
   phaseBlocks: [
     {phase:1, start:"2026-09-07", end:"2026-10-25", label:"Phase 1: Foundation",           blurb:"Movement quality, real mobility work, and a strength base — moderate volume, on purpose."},
-    {phase:2, start:"2026-10-26", end:"2027-01-03", label:"Phase 2: Strength + Power",      blurb:"More specific to your sprint and breaststroke needs. More intentional explosive work."},
+    {phase:2, start:"2026-10-26", end:"2027-01-03", label:"Phase 2: Endurance + Power",      blurb:"Same weights as Phase 1, more reps and shorter rest to build the endurance you asked for, with the explosive work kept low volume."},
     {phase:3, start:"2027-01-04", end:"2027-03-21", label:"Phase 3: Swim Power / Championship Prep", blurb:"Genuinely less total work. Speed and power take priority as State gets close."}
   ],
 
@@ -498,20 +498,20 @@ var CONFIG = {
       ]}
     },
     2: {
-      mon: {label:"Lower + Pull", note:"Same movements, more specific now — reps come down, load goes up, and this is where the strength starts becoming something you can actually feel in your start and pullout.", exercises:[
+      mon: {label:"Lower + Pull", note:"Phase 2 is built differently for you: same weights as Phase 1, a lot more reps, shorter rest. You asked for endurance behind your 100, so this block trains that. The box jumps stay low volume and crisp.", exercises:[
         {type:"sets", name:"Hip 90/90 Mobility Flow", sets:[":30/side",":30/side"], rest:"30 sec", cue:"Same routine — still matters, even as the lifting gets heavier."},
         {type:"sets", name:"Box Jumps (Low Volume)", sets:["3","3","3"], rest:"90 sec", cue:"Fast and crisp. Step down (don't jump down), reset fully between reps. Low volume on purpose. Stop if landing quality drops."},
-        {type:"sets", name:"Hack Squat", sets:["6","6","6"], rest:"2 min", cue:"Heavier than Phase 1, still controlled. Drive it up with intent, lower under control."},
-        {type:"sets", name:"Hip Thrust", sets:["6","6","6"], rest:"2 min", cue:"Stronger hip drive."},
-        {type:"sets", name:"Leg Curl", sets:["8","8","8"], rest:"60 sec", cue:"Controlled, full range."},
-        {type:"pullup", name:"Pull-Ups", sets:3, rest:"2 min", cue:"Target 5-6 reps, added difficulty if you're ready. Drive it up with intent, lower under control."},
-        {type:"sets", name:"Adductor Machine", sets:["10","10"], rest:"45 sec", cue:"Controlled, moderate weight."}
+        {type:"sets", name:"Hack Squat", sets:["12","12","12"], rest:"90 sec", cue:"Same weight as Phase 1 (or lighter if form slips). Push the reps, steady tempo, stop with 1-2 reps left. Controlled depth."},
+        {type:"sets", name:"Hip Thrust", sets:["12","12","12"], rest:"75 sec", cue:"Same weight as Phase 1 (or lighter if form slips). Push the reps, steady tempo, stop with 1-2 reps left. Squeeze at the top."},
+        {type:"sets", name:"Leg Curl", sets:["12","12","12"], rest:"60 sec", cue:"Controlled, full range, steady reps."},
+        {type:"pullup", name:"Pull-Ups", sets:3, rest:"90 sec", cue:"Same assistance (or bodyweight) as Phase 1. Aim for as many clean reps as you can, 10 or more if you can get them. Smooth, no kipping."},
+        {type:"sets", name:"Adductor Machine", sets:["15","15"], rest:"45 sec", cue:"Controlled, moderate weight, smooth reps."}
       ]},
-      wed: {label:"Upper + Trunk", note:"Heavier, same principle — the trunk work never gets cut, because it's what makes everything else actually transfer.", exercises:[
+      wed: {label:"Upper + Trunk", note:"Same idea: keep the weight where it is and push the reps. The trunk work never gets cut, because it is what makes everything else transfer.", exercises:[
         {type:"sets", name:"Thoracic Spine Rotation", sets:["8/side","8/side"], rest:"30 sec", cue:"Quick opener before you press."},
-        {type:"sets", name:"Incline Barbell Bench", sets:["6","6","6"], rest:"2 min", cue:"Heavier than Phase 1. Drive it up with intent, lower under control."},
-        {type:"sets", name:"Lat Pullover Machine", sets:["8","8","8"], rest:"60 sec", cue:"Controlled, full stretch and squeeze."},
-        {type:"sets", name:"Machine Shoulder Press", sets:["6-8","6-8"], rest:"2 min", cue:"Controlled overhead strength. Drive it up with intent, lower under control."},
+        {type:"sets", name:"Incline Barbell Bench", sets:["12","12","12"], rest:"90 sec", cue:"Same weight as Phase 1 (or lighter if form slips). Push the reps, steady tempo, stop with 1-2 reps left."},
+        {type:"sets", name:"Lat Pullover Machine", sets:["12","12","12"], rest:"60 sec", cue:"Controlled, full stretch and squeeze, steady reps."},
+        {type:"sets", name:"Machine Shoulder Press", sets:["12","12"], rest:"75 sec", cue:"Same weight as Phase 1 (or lighter if form slips). Push the reps, steady tempo, stop with 1-2 reps left."},
         {type:"sets", name:"Pallof Press", sets:["8/side","8/side"], rest:"45 sec", cue:"Trunk stiffness, still non-negotiable."},
         {type:"superset", name:"Bicep Curl (45\u00b0 Bench) + Single-Arm Tricep Extension", rounds:2, rest:"60 sec after each round", cue:"Controlled, full range."}
       ]},
@@ -519,9 +519,9 @@ var CONFIG = {
         {type:"sets", name:"Adductor / Groin Mobility", sets:[":30/side",":30/side"], rest:"30 sec", cue:"Before jumping, every time."},
         {type:"sets", name:"Squat Jump", sets:["4","4"], rest:"2 min", cue:"Vertical drive — jump as high as you can, full reset between reps."},
         {type:"sets", name:"Broad Jump", sets:["3","3"], rest:"90 sec", cue:"Horizontal power — your start off the blocks."},
-        {type:"sets", name:"DB Romanian Deadlift", sets:["6","6","6"], rest:"2 min", cue:"Heavier than Phase 1, controlled down, strong up."},
+        {type:"sets", name:"DB Romanian Deadlift", sets:["12","12","12"], rest:"90 sec", cue:"Same weight as Phase 1 (or lighter if form slips). Push the reps, steady tempo, stop with 1-2 reps left. Controlled down, strong up."},
         {type:"sets", name:"Suitcase Carry", sets:[":30/side",":30/side"], rest:"45 sec", cue:"Trunk stability under load."},
-        {type:"sets", name:"Cable Crunches", sets:["10-12","10-12"], rest:"45 sec", cue:"Controlled, full range."}
+        {type:"sets", name:"Cable Crunches", sets:["15","15"], rest:"45 sec", cue:"Controlled, full range."}
       ]}
     },
     3: {
